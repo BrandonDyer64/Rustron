@@ -1,0 +1,15 @@
+[package]
+name = "rustron"
+version = "0.1.0"
+authors = ["Brandon Dyer <brandondyer64@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.gtk]
+version = "0.7.0"
+features = ["v3_16"]
+
+[dependencies.gio]
+version = ""
+features = ["v2_44"]
